@@ -8,16 +8,204 @@
     font-family: 'fontwallamestitulo';
     src: url('fonts/archistico/Archistico_Bold.ttf') format('truetype');
 }
+@media screen and (min-width: 415px){
+    html{
+        scroll-behavior: smooth;
+    }
+    img{
+        width: 130px;
+    }
+    nav  {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        position: fixed;
+        background-image:linear-gradient(to right, white,white, #092E3D, #1C343D);
+        width: 100%;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 20px 0px;
+        justify-content: space-between;
+        
+    }
+    li{
+        list-style: none;
+        color: #1D8FBD;
+        align-items: center;
+        text-decoration: none;
+        font-family: 'fontwallames';
+        font-weight: lighter;
+        
+        
+        
+    }
+    a{
+        font-family: 'fontwallames';
+        padding-left: 10px;
+        margin-right: 19px;
+        font-size: 18px;
+    }
+    p{
+        font-family: 'fontwallames';
+        font-weight: medium;
+    }
+    ul{
+        display: flex;
+        
+        text-decoration: none;
+        flex-direction: row;
+        font-size: 20px;
+        justify-content: space-between;
+        
+        
+    }
+    svg{
+        width: 60px;
+        display: block;
+        
+    }
+    .container{
+        display: block;
+        
+        
+    }
+    .ola{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: white;
+        margin-left: 100px;
+    }
+    section{
+        min-height: 45vw;
+        padding-top: 6rem;
+        text-align: justify;
+        font-family: 'fontwallames';
+        background-color: #092E3D;
+        
+        
+    }
+    #ola{
+        background-color: #15698A; 
+        padding-top: 6rem;
+        height: 500px;
+    }
+    #Servicos{
+        background-color: #15698A;
+    }
+    #Contato{
+        background-color: #1C343D;
+    }
+    /*li>a:hover{
+       
+        text-shadow: 2px 2px 5px rgba(19, 19, 19, 0.872);
+        background-color: whitesmoke;
+        
+        border-radius: 4px 4px;
+        
+    }*/
+    li>a::after{
+        content: " ";
+        width: 0%;
+        height: 3px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.5s ease-in-out;
+        border-radius: 0px 7px;
+        
+    }
+    li>a{
+        position: relative;
+    }
+    li>a:hover::after{
+        width: 100%;
+    }
+    a:visited{
+        color: #EFEFF0;
+        
+    }
+    a:link{
+        color: white;
+    }
+    h1{
+        font-family: 'raleway', sans-serif;
+        font-weight: 900;
+        font-size: 4em;
+        text-align: center;
+        background-image: url("https://wallpapercave.com/wp/wp8969397.jpg");
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    h3{
+        font-family: 'fontwallames';
+        font-size: 2rem;
+        font-weight: lighter;
+        width: 90%;
+        margin: auto;
+        color: white;
+        padding-top: 60px;
+    }
+    h2{
+        font-family: 'fontwallames', sans-serif;
+        font-weight: lighter;
+        font-size: 4em;
+        text-align: center;
+        background-image: url("https://cdn.cloudflare.steamstatic.com/steam/apps/1421640/ss_966c3c0cb3429e0a336f99c5f636106ad56d511a.1920x1080.jpg?t=1600866777");
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    body {
+        background: #111;
+        
+      }
+      .hidden {
+        opacity:0;
+      }
+      .console-container {
+       
+        font-family:'fontwallames';
+        font-size:2em;
+        text-align:center;
+        height:200px;
+        width:600px;
+        
+        padding-top: 100px;
+        color:white;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:auto;
+      }
+      .console-underscore {
+         display:inline-block;
+        position:relative;
+        top:-0.14em;
+        left:10px;
+      }
+    }
+
+
+   
 
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
+@media screen and (min-width: 1280px) {
+    
+
 html{
     scroll-behavior: smooth;
 }
-
 nav  {
     list-style: none;
     display: flex;
@@ -30,8 +218,6 @@ nav  {
     border-radius: 20px 0px;
     justify-content: space-between;
 }
-
-
 li{
     list-style: none;
     color: #1D8FBD;
@@ -43,14 +229,12 @@ li{
     
     
 }
-
 a{
     font-family: 'fontwallames';
     padding-left: 20px;
     margin-right: 19px;
     font-size: 22px;
 }
-
 p{
     font-family: 'fontwallames';
     font-weight: medium;
@@ -73,6 +257,7 @@ svg{
 .container{
     display: flex;
     align-items: center;
+    width: 100;
 }
 .ola{
     display: flex;
@@ -81,8 +266,6 @@ svg{
     color: white;
     margin-left: 100px;
 }
-
-
 section{
     min-height: 45vw;
     padding-top: 6rem;
@@ -90,13 +273,13 @@ section{
     font-family: 'fontwallames';
     background-color: #092E3D;
     
+    
 }
 #ola{
     background-color: #15698A; 
     padding-top: 6rem;
     height: 500px;
 }
-
 #Servicos{
     background-color: #15698A;
 }
@@ -129,7 +312,6 @@ li>a{
 li>a:hover::after{
     width: 100%;
 }
-
 a:visited{
     color: #EFEFF0;
     
@@ -167,8 +349,10 @@ h2{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-}body {
+}
+body {
     background: #111;
+    
   }
   .hidden {
     opacity:0;
@@ -195,3 +379,4 @@ h2{
     top:-0.14em;
     left:10px;
   }
+}
