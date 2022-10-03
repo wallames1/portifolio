@@ -12,6 +12,8 @@
     html{
         scroll-behavior: smooth;
     }
+  
+    
     img{
         width: 130px;
     }
@@ -60,8 +62,9 @@
         
     }
     svg{
-        width: 60px;
+        width: 280px;
         display: block;
+        margin: auto;
         
     }
     .container{
@@ -74,22 +77,26 @@
         flex-direction: column;
         justify-content: space-evenly;
         color: white;
-        margin-left: 100px;
+        
     }
+
     section{
-        min-height: 45vw;
+        min-height: 150vh;
         padding-top: 6rem;
         text-align: justify;
         font-family: 'fontwallames';
         background-color: #092E3D;
         
         
+        
+        
     }
     #ola{
         background-color: #15698A; 
         padding-top: 6rem;
-        height: 500px;
+        height: 500px;    
     }
+    
     #Servicos{
         background-color: #15698A;
     }
@@ -132,7 +139,7 @@
     h1{
         font-family: 'raleway', sans-serif;
         font-weight: 900;
-        font-size: 4em;
+        font-size: 3em;
         text-align: center;
         background-image: url("https://wallpapercave.com/wp/wp8969397.jpg");
         background-size: cover;
@@ -142,11 +149,10 @@
     }
     h3{
         font-family: 'fontwallames';
-        font-size: 2rem;
-        font-weight: lighter;
-        width: 90%;
+        font-size: 1.8rem;
+        font-weight: lighter;   
         margin: auto;
-        color: white;
+        color: rgba(255, 255, 255, 0.737);
         padding-top: 60px;
     }
     h2{
@@ -162,6 +168,7 @@
     }
     body {
         background: #111;
+        width:100%;
         
       }
       .hidden {
@@ -172,8 +179,8 @@
         font-family:'fontwallames';
         font-size:2em;
         text-align:center;
-        height:200px;
-        width:600px;
+        height:220px;
+        width:380px;
         
         padding-top: 100px;
         color:white;
@@ -190,17 +197,13 @@
         left:10px;
       }
     }
-
-
-   
-
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1000px) {
     
 
 html{
