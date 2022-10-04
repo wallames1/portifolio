@@ -196,6 +196,50 @@
         top:-0.14em;
         left:10px;
       }
+      div#rede-social{
+        display: grid;
+        width: 100%;
+        justify-content: space-evenly;
+        
+        
+    }
+    #h1-email{
+        font-size: 26px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        writing-mode: vertical-lr;
+        margin: auto;
+        padding-bottom: 20px;
+        
+    }   
+    
+    #h1-instagram{
+        font-size: 26px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        writing-mode: vertical-lr;
+        margin: auto;
+        padding-bottom: 20px;
+    
+    }
+    #h1-github{
+        font-size: 26px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        writing-mode: vertical-lr;
+        margin: auto;
+        padding-bottom: 20px;
+    
+    }
+    #h1-linkedin{
+        font-size: 26px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        writing-mode: vertical-lr;
+        margin: auto;
+        padding-bottom: 20px;
+    
+    }
     }
 @media screen and (min-width: 413px){
     html{
@@ -232,9 +276,9 @@
     }
     a{
         font-family: 'fontwallames';
-        padding-left: 10px;
+        padding-left: 3px;
         margin-right: 19px;
-        font-size: 18px;
+        font-size: 15px;
     }
     p{
         font-family: 'fontwallames';
@@ -356,14 +400,14 @@
         color: transparent;
     }
     body {
-        background: #111;
+        background: #15698A;
         width:100%;
         
-      }
-      .hidden {
+    }
+    .hidden {
         opacity:0;
-      }
-      .console-container {
+    }
+    .console-container {
        
         font-family:'fontwallames';
         font-size:2em;
@@ -378,14 +422,59 @@
         left:0;
         right:0;
         margin:auto;
-      }
-      .console-underscore {
+    }
+    .console-underscore {
          display:inline-block;
         position:relative;
         top:-0.14em;
         left:10px;
-      }
     }
+    div#rede-social{
+        display: grid;
+        width: 100%;
+        justify-content: space-evenly;
+        
+        
+    }
+    #h1-email{
+        font-size: 26px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        writing-mode: vertical-lr;
+        margin: auto;
+        padding-bottom: 20px;
+        
+    }   
+    
+    #h1-instagram{
+        font-size: 26px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        writing-mode: vertical-lr;
+        margin: auto;
+        padding-bottom: 20px;
+    
+    }
+    #h1-github{
+        font-size: 26px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        writing-mode: vertical-lr;
+        margin: auto;
+        padding-bottom: 20px;
+    
+    }
+    #h1-linkedin{
+        font-size: 26px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        writing-mode: vertical-lr;
+        margin: auto;
+        padding-bottom: 20px;
+    
+    }
+}
+    
 *{
     margin: 0;
     padding: 0;
@@ -544,7 +633,7 @@ h2{
     color: transparent;
 }
 body {
-    background: #111;
+    background: #15698A;
     
   }
   .hidden {
@@ -572,4 +661,45 @@ body {
     top:-0.14em;
     left:10px;
   }
+  div#rede-social{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-evenly;
+    align-items: top;
+  }
+  #h1-email{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    writing-mode: vertical-lr;
+    margin: auto;
+    
+ }
+ 
+ #h1-instagram{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    writing-mode: vertical-lr;
+    margin: auto;
+
+ }
+ #h1-github{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    writing-mode: vertical-lr;
+    margin: auto;
+
+ }
+ #h1-linkedin{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    writing-mode: vertical-lr;
+    margin: auto;
+
+ }
+
 }
